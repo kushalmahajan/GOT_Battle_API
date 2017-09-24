@@ -1,27 +1,10 @@
 'use strict';
 const express = require('express');
-
 const router = express.Router();
+const notes = require('../controllers/cs_notes');
 
-router.get('/', function(req, res) {
-    res.json([
-        {
-            id: 1,
-            title: 'First note',
-            text: 'Sample text'
-        },
-        {
-            id: 2,
-            title: 'Second note',
-            text: 'Sample text'
-        }
-    ]);
-});
+router.get('/', notes.getNotes);
 
-router.post('/', function(req, res) {
-    res.send({
-        code: 1
-    });
-});
+router.post('/', notes.saveNotes);
 
 module.exports = router;

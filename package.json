@@ -9,8 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.2",
     "classnames": "^2.2.5",
     "express": "^4.15.3",
+    "fast-csv": "^2.4.0",
+    "mongoose": "^4.11.12",
     "morgan": "^1.8.2",
     "path": "^0.12.7",
     "react-router": "^4.1.2"

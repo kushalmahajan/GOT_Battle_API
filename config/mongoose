@@ -1,0 +1,10 @@
+(function () {
+    const config = require('./config');
+    const mongoose = require("mongoose");
+    // mongoose.Promise = require("bluebird");
+    mongoose.connect(config.db, {
+	  useMongoClient: true
+    });
+    const db = mongoose.connection;
+    db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+})();
