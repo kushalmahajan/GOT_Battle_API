@@ -11,5 +11,11 @@ Steps to follow
        
    from index.js file. This helps in loading the CSV file data for the battles in Game of thrones and stores in database
    
- 3. Run the project by `node index` or `nodemon index` on cmd / terminal. 
+ 3. Run the project by `node` or `nodemon` on cmd / terminal. 
    
+4. APIs available at http://localhost:9001/api/battle/
+
+  a. http://localhost:9001/api/battle/list
+  b. http://localhost:9001/api/battle/count
+  c. http://localhost:9001/api/battle/stats
+  d. http://localhost:9001/api/battle/search?king=Robb Stark
