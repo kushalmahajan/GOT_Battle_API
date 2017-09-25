@@ -15,10 +15,10 @@ Steps to follow
    
 4. APIs available at http://localhost:9001/api/battle/
 
-  a. http://localhost:9001/api/battle/list
-  
-  b. http://localhost:9001/api/battle/count
-  
-  c. http://localhost:9001/api/battle/stats
-  
-  d. http://localhost:9001/api/battle/search?king=Robb Stark
+     a. http://localhost:9001/api/battle/list
+
+     b. http://localhost:9001/api/battle/count
+
+     c. http://localhost:9001/api/battle/stats
+
+     d. http://localhost:9001/api/battle/search?king=Robb Stark
