@@ -1,5 +1,5 @@
 # GOT_Battle_API
-A basic demonstration to build some stats by parsing a CSV file.
+A basic demonstration to build some stats by parsing a CSV file in Express.js
 
 
 Steps to follow
