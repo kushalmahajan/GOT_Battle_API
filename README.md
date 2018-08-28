@@ -1,5 +1,5 @@
 # GOT_Battle_API
-A practice assignment to setup a basic node express server.
+A basic app to build some stats by parsing a CSV file.
 
 
 Steps to follow
